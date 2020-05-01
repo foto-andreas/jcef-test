@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+        <key>CFBundleExecutable</key>
+        <string>JavaAppLauncher</string>
+        <key>CFBundleIconFile</key>
+        <string>CefIcon.icns</string>
+        <key>CFBundleIdentifier</key>
+        <string>org.jcef.jcef</string>
+        <key>CFBundleDisplayName</key>
+        <string>jcef_app</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>jcef_app</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleShortVersionString</key>
+        <string>1.0</string>
+        <key>CFBundleVersion</key>
+        <string>1.0</string>
+        <key>CFBundleSignature</key>
+        <string>????</string>
+        <key>NSHumanReadableCopyright</key>
+        <string></string>
+        <key>LSMinimumSystemVersion</key>
+        <string>10.7</string>
+        <key>NSHighResolutionCapable</key>
+        <true/>
+        <key>NSSupportsAutomaticGraphicsSwitching</key>
+        <true/>
+        <key>JVMMainClassName</key>
+        <string>tests.detailed.MainFrame</string>
+        <key>CFBundleDocumentTypes</key>
+        <array>
+        </array>
+        <key>LSArchitecturePriority</key>
+        <array>
+        </array>
+        <key>LSEnvironment</key>
+        <dict>
+            <key>LC_CTYPE</key>
+            <string>UTF-8</string>
+        </dict>
+        <key>JVMOptions</key>
+        <array>
+            <string>-Djava.library.path=$APP_ROOT/Contents/Java/:$APP_ROOT/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries</string>
+        </array>
+        <key>JVMDefaultOptions</key>
+        <dict>
+        </dict>
+        <key>JVMArguments</key>
+        <array>
+        </array>
+    </dict>
+</plist>
+

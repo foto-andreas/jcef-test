@@ -1,0 +1,23 @@
+plugins {
+  id 'application' 
+}
+
+repositories {
+    flatDir(name:'lib').dirs(rootProject.file('lib').listFiles())
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.jetbrains.intellij.deps.jcef/jcef
+    compile group: 'org.jcef', name: 'jcef'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+version = '1.0'
+
+mainClassName = 'de.schrell.ceftest.MainFrame'
+
